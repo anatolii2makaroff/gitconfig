@@ -1,0 +1,22 @@
+[user]                                                                          
+    email = anatolii2makaroff@gmail.com                                            
+    name = anatolii2makaroff                                                             
+[credential]                                                                    
+    helper = store                                                              
+[alias]                                                                         
+    cmt = !git add * && git commit                                              
+    fs = !git flow feature start                                                
+    ff = !git flow feature finish && git push origin develop                    
+    fp = !git flow feature publish                                              
+    ft = !git flow feature track                                                
+    rs = !git flow release start                                                
+    rp = !git flow release publish                                              
+    rt = !git flow release track                                                
+    rf = !git flow release finish && git push --tags && git push origin master  
+    hs = !git flow hotfix start                                                 
+    hp = !git flow hotfix publish                                               
+    co = !git checkout                                                          
+    hf = !git flow hotfix finish && git push origin develop\                    
+        && git push origin master && git push --tags                            
+[core]                                                                          
+    editor = vim 
